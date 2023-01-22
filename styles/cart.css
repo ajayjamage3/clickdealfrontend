@@ -1,0 +1,84 @@
+#logout{
+    background-color: #e40046;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 6px 30px 8px 30px;
+    margin: 55px;
+    cursor: pointer;
+    display: none;
+    margin-top: 5%;
+  }
+  #cart_body{
+    width: 90%;
+    margin: auto;
+  }
+  table{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 8%;
+  }
+  thead{
+    text-align: center;
+  }
+  th{
+    padding: 20px;
+    background-color:rgb(247,247,247);
+  }
+  td{
+    text-align: center;
+    background-color: white;
+    border-bottom: 1px solid gray;
+  }
+  .carts img{
+    width: 80px;
+  }
+  .quantity{
+    padding: 10px;
+    border-radius: 4px;
+  }
+  #title{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .photo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .remove{
+    color: gray;
+  }
+  #bill{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3%;
+    background-color: rgb(34,34,34);
+    width: 99%;
+    margin: auto;
+    border-radius: 10px;
+  }
+  #subtotal{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 100px;
+    row-gap: 15px;
+    color: white;
+  }
+  #green{
+    color: green;
+  }
+  #pay{
+    background-color:rgb(228,0,70);
+    color: white;
+    padding: 10%;
+    width: 180%;
+    border: none;
+    border-radius: 10px;
+  }
+  #pay:hover{
+    background-color: #b30036;
+  }
+  button{
+    cursor: pointer;
+}
