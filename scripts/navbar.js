@@ -17,10 +17,6 @@ export const navbar =()=>{
 <img src="./scripts/clickdeal.png" alt="">
 <h3>clickdeal</h3>
 </div>
-<div class="search">
-    <input type="text" placeholder="Search products & brands" id="search"/>
-    <button class="btn" id="srhbtn"><i class="fas fa-search"></i> Search</button>
-</div>
 <div class = "menubar">
 <div class = "menu">
 <div class="bar1"></div>
@@ -29,6 +25,11 @@ export const navbar =()=>{
 </div>
 <div class="leftside"></div>
 </div>
+<div class="search">
+    <input type="text" placeholder="Search products & brands" id="search"/>
+    <button class="btn" id="srhbtn"><i class="fas fa-search"></i> Search</button>
+</div>
+
 
 <div class="moreitemslist">
     <div class="moreitems1">
